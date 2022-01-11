@@ -1,34 +1,22 @@
-# Welcome to Remix!
+# React Bricks Remix Blog starter with Tailwind CSS and React Bricks UI
 
-- [Remix Docs](https://remix.run/docs)
+Kick-start your project with this boilerplate for a complete Remix blog based on [React Bricks](https://reactbricks.com), with both the front-end and admin dashboard.
 
-## Deployment
+## 🚀 Quick start
 
-After having run the `create-remix` command and selected "Vercel" as a deployment target, you only need to [import your Git repository](https://vercel.com/new) into Vercel, and it will be deployed.
+We suggest that you use the CLI and choose this starter.  
+In this way you will have the credentials already set up in your `.env` files and you may have some default content:
 
-If you'd like to avoid using a Git repository, you can also deploy the directory by running [Vercel CLI](https://vercel.com/cli):
-
-```sh
-npm i -g vercel
-vercel
+```bash
+npx create-reactbricks-app
 ```
 
-It is generally recommended to use a Git repository, because future commits will then automatically be deployed by Vercel, through its [Git Integration](https://vercel.com/docs/concepts/git).
+Otherwise you can directly clone this repo:
 
-## Development
-
-To run your Remix app locally, make sure your project's local dependencies are installed:
-
-```sh
-npm install
+```bash
+git clone https://github.com/reactbricks/remix-starter-reactbricks-blog your-project
 ```
 
-Afterwards, start the Remix development server like so:
+## 📖 Documentation
 
-```sh
-npm run dev
-```
-
-Open up [http://localhost:3000](http://localhost:3000) and you should be ready to go!
-
-If you're used to using the `vercel dev` command provided by [Vercel CLI](https://vercel.com/cli) instead, you can also use that, but it's not needed.
+Please, read our documentation at [Reactbricks.com](https://reactbricks.com).
